@@ -1,0 +1,18 @@
+﻿l_english:
+ FRA:0 "France"
+ FRA_DEF:0 "France"
+ FRA_ADJ:0 "French"
+ FRA_fascism:0 "French Empire"
+ FRA_fascism_DEF:0 "the French Empire"
+ FRA_democratic:0 "French Republic"
+ FRA_democratic_DEF:0 "the French Republic"
+ FRA_neutrality:1 "French Empire"
+ FRA_neutrality_DEF:1 "the French Empire"
+ FRA_communism:0 "Socialist Utopia of France"
+ FRA_communism_DEF:0 "the Socialist Utopia of France"
+ FRA_fascism_ADJ:0 "French"
+ FRA_democratic_ADJ:0 "French"
+ FRA_neutrality_ADJ:0 "French"
+ FRA_communism_ADJ:0 "French"
+
+

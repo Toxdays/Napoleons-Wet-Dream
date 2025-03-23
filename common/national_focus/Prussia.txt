@@ -1,11 +1,11 @@
 focus_tree = {
-	id = French_Empire
+	id = prussia
 	country = { 
 		factor = 0
 
 		modifier = {
 			add = 10
-			tag = FRA
+			tag = PRE
 		}
 	}
 	default = no

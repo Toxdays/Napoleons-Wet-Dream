@@ -1,0 +1,2 @@
+CON = "countries/Confederation_Of_The_Rhine.txt"
+

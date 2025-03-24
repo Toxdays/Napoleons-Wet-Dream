@@ -11,11 +11,88 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = x
+		id = austria_start
 		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 15
+		y = 1
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = austria_2
+		icon = x
 		cost = x
 		x = x
-		y = x
+		y = 1.5
+		relative_position_id = austria_start
+		prerequisite = {
+			focus = austria_start
+		}
+		completion_reward = {
+			add_political_power = 1
+		 }
+	}
+
+
+	focus = {
+		id = austria_monarchist
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_2
+		prerequisite = {
+			focus = austria_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_1
+		icon = x
+		cost = x
+		x = -1
+		y = 1.5
+		mutually_exclusive = {
+			focus = austria_monarchist_2
+		}
+		relative_position_id = austria_monarchist
+		prerequisite = {
+			focus = austria_monarchist
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_2
+		icon = x
+		cost = x
+		x = 1
+		y = 1.5
+		relative_position_id = austria_monarchist
+		prerequisite = {
+			focus = austria_monarchist
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_communist
+		icon = x
+		cost = x
+		x = 5
+		y = 1.5
+		mutually_exclusive = {
+			focus = austria_monarchist
+		}
+		relative_position_id = austria_2
+		prerequisite = {
+			focus = austria_2
+		}
 		completion_reward = { }
 	}
 }

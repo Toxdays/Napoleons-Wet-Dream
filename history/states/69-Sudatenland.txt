@@ -11,6 +11,9 @@ state = {
 	
 	history = {
 
+		owner = CON
+		add_core_of = CON
+
 		victory_points = {
 			3585 3
 		}
@@ -23,8 +26,7 @@ state = {
 			11401 3
 		}
 
-		owner = CZE
-		add_core_of = CZE
+	
 
 		buildings = {
 

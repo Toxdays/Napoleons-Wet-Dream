@@ -14,6 +14,8 @@ state = {
 
 	history = {
 		owner = FRA
+		add_core_of = FRA
+		add_core_of = ITA
 		victory_points = {
 			6788 10 
 		}
@@ -30,8 +32,7 @@ state = {
 				naval_base = 8
 			}
 		}
-		add_core_of = FRA
-		add_core_of = ITA
+
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 10

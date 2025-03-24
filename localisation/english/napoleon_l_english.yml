@@ -1,8 +1,9 @@
 ﻿l_english:
+ ############### France ################
  FRA: "France"
  FRA_DEF: "France"
  FRA_ADJ: "French"
- FRA_fascism: "French Empire"
+ FRA_fascism: "French Empire" 
  FRA_fascism_DEF: "the French Empire"
  FRA_democratic: "French Republic"
  FRA_democratic_DEF: "the French Republic"
@@ -14,6 +15,7 @@
  FRA_democratic_ADJ: "French"
  FRA_neutrality_ADJ: "French"
  FRA_communism_ADJ: "French"
+ ##### Confederation of the Rhine #####
  CON: "Confederation of the Rhine"
  CON_DEF: "Confederation of the Rhine"
  CON_ADJ: "German"

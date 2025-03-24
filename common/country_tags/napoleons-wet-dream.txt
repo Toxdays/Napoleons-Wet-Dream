@@ -1,2 +1,2 @@
-CON = "countries\Rhine.txt"
-
+CON = "countries\Confederation of the Rhine.txt"
+NAP = "countries\Naples.txt"

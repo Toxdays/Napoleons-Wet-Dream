@@ -1,0 +1,4 @@
+focus_tree = {
+	id = austria_focus_tree
+	country = { }
+}

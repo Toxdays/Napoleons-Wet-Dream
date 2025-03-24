@@ -1,4 +1,21 @@
 focus_tree = {
 	id = austria_focus_tree
-	country = { }
+	country = { 
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+
+	focus = {
+		id = x
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = x
+		completion_reward = { }
+	}
 }

@@ -9,13 +9,32 @@ focus_tree = {
 		}
 	}
 	default = no
+	shared_focus = prussia_industry
 
 	focus = {
-		id = x
+		id = anti_france
 		icon = GFX_surrender_tiny_flag
-		cost = x
-		x = x
+		cost = 1
+		x = 5
 		y = x
-		completion_reward = { }
+		completion_reward = { 
+			add_political_power = 100
+		}
+		relative_position_id = pro_france
+
+		mutually_exclusive = {
+			focus = pro_france
+		}
 	}
+	focus = {
+		id = pro_france
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 12.5
+		y = 1.25
+		completion_reward = {
+			add_political_power = 100
+		 }
+	}
+
 }

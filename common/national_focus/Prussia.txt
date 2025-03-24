@@ -27,6 +27,60 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = anti_france1
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1.25
+		y = 1.25
+		completion_reward = { }
+		relative_position_id = anti_france
+		prerequisite = {
+			focus = anti_france
+		}
+	}
+	focus = {
+		id = prussian_military
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1.5
+		y = 3
+		completion_reward = { }
+		relative_position_id = anti_france
+		prerequisite = {
+			focus = anti_france 
+		}
+	}
+	focus = {
+		id = prussian_tank
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1.25
+		y = 1.25
+		completion_reward = { }
+		relative_position_id = prussian_military
+		prerequisite = {
+			focus = prussian_military
+		}
+		mutually_exclusive = {
+			focus = prussian_artillery
+		}
+	}
+	focus = {
+		id = prussian_artillery
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1.25
+		y = 1.25
+		completion_reward = { }
+		prerequisite = {
+			focus = prussian_military
+		}
+		relative_position_id = prussian_military
+	}
+
+		#### PRO FRANCE FOCUSES
+
+	focus = {
 		id = pro_france
 		icon = GFX_surrender_tiny_flag
 		cost = 1
@@ -36,5 +90,4 @@ focus_tree = {
 			add_political_power = 100
 		 }
 	}
-
 }

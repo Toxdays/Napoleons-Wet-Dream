@@ -33,7 +33,7 @@ shared_focus = {
 shared_focus = {
 	id = prussia_industry_artillery
 	cost = 1
-	x = 1.5
+	x = -1.25
 	y = 1.25
 
 	relative_position_id = prussia_industry
@@ -52,4 +52,67 @@ shared_focus = {
 			state = 67
 		}
 	}
+	available = {
+		has_completed_focus = prussian_artillery
+	}
+}
+shared_focus = {
+	id = prussia_industry_tank
+	cost = 1
+	x = 1.25
+	y = 1.25
+	relative_position_id = prussia_industry
+	prerequisite = {
+		focus = prussia_industry
+	}
+	available = {
+		has_completed_focus = prussian_tank
+	}
+	
+	mutually_exclusive = {
+		focus = prussia_industry_artillery
+	}
+	
+}
+
+### MILITARY FOCUSES
+shared_focus = {
+	id = prussian_military
+	icon = GFX_surrender_tiny_flag
+	cost = 1
+	x = 4
+	y = 1.25
+	completion_reward = { }
+}
+
+shared_focus = {
+
+	id = prussian_tank
+	icon = GFX_surrender_tiny_flag
+	cost = 1
+	x = 2
+	y = 1.25
+	completion_reward = { }
+	relative_position_id = prussian_military
+	prerequisite = {
+		focus = prussian_military
+	}
+	mutually_exclusive = {
+		focus = prussian_artillery
+	}
+}
+
+shared_focus = {
+	
+
+	id = prussian_artillery
+	icon = GFX_surrender_tiny_flag
+	cost = 1
+	x = -2
+	y = 1.25
+	completion_reward = { }
+	prerequisite = {
+		focus = prussian_military
+	}
+	relative_position_id = prussian_military
 }

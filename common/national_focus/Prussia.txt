@@ -47,7 +47,7 @@ focus_tree = {
 		completion_reward = { }
 		relative_position_id = anti_france
 		prerequisite = {
-			focus = anti_france 
+			focus = anti_france focus = pro_france
 		}
 	}
 	focus = {
@@ -75,6 +75,9 @@ focus_tree = {
 		prerequisite = {
 			focus = prussian_military
 		}
+		available = {
+			has_completed_focus = prussian_artillery
+		}
 		relative_position_id = prussian_military
 	}
 
@@ -88,6 +91,9 @@ focus_tree = {
 		y = 1.25
 		completion_reward = {
 			add_political_power = 100
+		 }
+		 mutually_exclusive = {
+			focus = anti_france
 		 }
 	}
 }

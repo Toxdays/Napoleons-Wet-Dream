@@ -30,7 +30,7 @@ AUS = {
 }
 BOH = {
 	color = rgb { 174 178 195 }
-	color_ui = rgb { 255 255 255 }
+	color_ui = rgb { 112 94 58 }
 }
 
 

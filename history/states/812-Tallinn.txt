@@ -4,8 +4,7 @@ state={
 	name="STATE_812"
 
 	history={
-		owner = EST
-		victory_points = {
+		owner = UBD		victory_points = {
 			3152 5 
 		}
 		buildings = {
@@ -19,8 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = EST
-
+		add_core_of = UBD
 	}
 
 	provinces={

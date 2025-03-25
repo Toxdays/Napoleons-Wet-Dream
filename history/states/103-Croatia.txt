@@ -8,8 +8,8 @@ state={
 
 
 	history={
-		owner = AUS
-		add_core_of = AUS
+		owner = FRA
+		add_core_of = FRA
 		#add_claim_by = ITA #added by focus
 		add_core_of = CRO
 		victory_points = { #Dubrovnik

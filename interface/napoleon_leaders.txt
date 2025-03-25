@@ -1,0 +1,8 @@
+sprite_types = {
+
+	sprite_type = {
+		name = GFX_Napoleonreich_portrait_FRA_Napoleon_VI
+		texturefile = gfx/leaders/Napoleonreich/portraits_fra_napoleon.dds
+	}
+
+}

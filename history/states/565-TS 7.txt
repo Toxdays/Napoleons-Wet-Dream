@@ -13,9 +13,7 @@ state = {
 
 	history = {
 
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = EVE
+		owner = TSR		add_core_of = TSR		add_core_of = EVE
 
 		buildings = {
 			infrastructure = 1

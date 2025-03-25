@@ -6,14 +6,12 @@ state={
 		victory_points = {
 			9304 1
 		}
-		owner = SOV
-		buildings = {
+		owner = TSR		buildings = {
 			infrastructure = 3
 			air_base = 3
 
 		}
-		add_core_of = SOV
-		add_core_of = BLR
+		add_core_of = TSR		add_core_of = BLR
 
 	}
 

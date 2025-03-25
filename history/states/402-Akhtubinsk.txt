@@ -6,8 +6,7 @@ state={
 	}
 
 	history={
-		owner = SOV
-		victory_points = {
+		owner = TSR		victory_points = {
 			7341 1
 		}
 		add_core_of = KAZ
@@ -15,8 +14,7 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
-
+		add_core_of = TSR
 	}
 
 	provinces={

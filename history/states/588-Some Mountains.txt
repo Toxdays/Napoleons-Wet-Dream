@@ -9,10 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = SOV
-		add_core_of = KAZ
-		add_core_of = SOV
-
+		owner = TSR		add_core_of = KAZ
+		add_core_of = TSR
 		victory_points = {
 			12594 2 # Seipalatinsk
 		}

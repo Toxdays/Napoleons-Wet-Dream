@@ -9,12 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = SOV
-		buildings = {
+		owner = TSR		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SOV
-		add_core_of = UDM
+		add_core_of = TSR		add_core_of = UDM
 		
 		victory_points = {
 			6278 1 

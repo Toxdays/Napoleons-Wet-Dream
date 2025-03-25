@@ -10,12 +10,10 @@ state = {
 			12683 1 
 		}
 
-		owner = SOV
-		buildings = {
+		owner = TSR		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
-		add_core_of = FER
+		add_core_of = TSR		add_core_of = FER
 	}
 
 	provinces = {

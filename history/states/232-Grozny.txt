@@ -11,8 +11,7 @@ state = {
 
 	history = {
 
-		owner = SOV
-
+		owner = TSR
 		buildings = {
 			infrastructure = 2
 		}
@@ -25,8 +24,7 @@ state = {
 			7624 1 # Derbent
 		}
 
-		add_core_of = SOV
-		add_core_of = DAG
+		add_core_of = TSR		add_core_of = DAG
 
 	}
 

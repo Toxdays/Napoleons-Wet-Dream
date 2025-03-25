@@ -33,12 +33,12 @@ BOH = {
 	color_ui = rgb { 175 133 25 }
 }
 FEQ = {
-	color = { 108 117 225 }
-	color_ui = { 108 117 225 }
+	color = rgb { 108 117 225 }
+	color_ui = rgb { 74 147 255 }
 }
 TSR = {
-	color = { 223, 255, 0 }
-	color_ui = { 223, 255, 0 }
+	color = rgb { 223 255 0 }
+	color_ui = rgb { 74 147 255 }
 }
 
 

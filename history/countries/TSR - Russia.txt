@@ -1,6 +1,6 @@
 capital = 107
 
-OOB = "SER_1936"
+OOB = "TSR_1936"
 
 # Starting tech
 set_technology = {
@@ -8,13 +8,13 @@ set_technology = {
 	
 }
 
-add_manpower = 15000
+add_manpower = 500000
 
 add_ideas = {
 	
 }
 
-set_convoys = 10
+set_convoys = 500
 
 
 set_politics = {

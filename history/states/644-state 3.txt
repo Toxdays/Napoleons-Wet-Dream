@@ -3,15 +3,13 @@ state = {
 	name = "STATE_644" # Kolyma
 
 	history = {
-		owner = SOV
-		victory_points = {
+		owner = TSR		victory_points = {
 			1819 1 
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
-		add_core_of = YAK
+		add_core_of = TSR		add_core_of = YAK
 
 	}
 

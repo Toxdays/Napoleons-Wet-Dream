@@ -11,15 +11,13 @@ state = {
 	}
 
 	history = {
-		owner = SOV
-		buildings = {
+		owner = TSR		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			3672 5 
 		}
-		add_core_of = SOV
-		add_core_of = CIN
+		add_core_of = TSR		add_core_of = CIN
 	}
 
 	provinces = {

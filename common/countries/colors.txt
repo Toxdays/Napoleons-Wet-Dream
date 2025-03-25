@@ -32,6 +32,10 @@ BOH = {
 	color = rgb { 175 133 25 }
 	color_ui = rgb { 175 133 25 }
 }
+FEQ = {
+	color = { 108 117 225 }
+	color_ui = { 108 117 225 }
+}
 
 
 ##### DEFAULT ######

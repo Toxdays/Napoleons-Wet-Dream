@@ -1,3 +1,4 @@
 CON = "countries\Confederation of the Rhine.txt"
 NAP = "countries\Naples.txt"
 BOH = "countries\Bohemia.txt"
+FEQ = "countries\French Equatorial Africa.txt"

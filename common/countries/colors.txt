@@ -699,23 +699,23 @@ D50 = {
 	color_ui = rgb { 255 138 61 }
 }
 BAY = {
-	color = rgb { 233  231  246 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 233  231  246 }
 }
 MEK = {
-	color = rgb { 186 245 86 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 186 245 86 }
 }
 SAX = {
-	color = rgb { 102 102 0 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 102 102 0 }
 }
 HAN = {
-	color = rgb { 255 0 0 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 255 0 0 }
 }
 WUR = {
-	color = rgb { 255 204 153 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 255 204 153 }
 }
 SHL = {
@@ -971,15 +971,15 @@ SOK = {
 	color_ui = rgb { 0 77 26 }
 }
 THU = {
-	color = rgb { 102 153 255 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 0 51 153 }
 }
 HES = {
-	color = rgb { 255 179 179 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 179 0 0 }
 }
 RHI = {
-	color = rgb { 0 153 51 }
+	color = rgb { 108 117 225 }
 	color_ui = rgb { 0 77 26 }
 }
 UBD = {

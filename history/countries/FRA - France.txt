@@ -32,3 +32,5 @@ set_popularities = {
 	communism = 20
 	neutrality = 60
 }
+
+recruit_character = FRA_Napoleon_VI

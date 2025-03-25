@@ -16,7 +16,7 @@ add_ideas = {
 
 set_convoys = 10
 
-puppet = FRA
+
 
 set_politics = {
 	ruling_party = neutrality

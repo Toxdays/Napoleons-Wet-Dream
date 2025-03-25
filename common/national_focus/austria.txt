@@ -80,6 +80,100 @@ focus_tree = {
 		completion_reward = { }
 	}
 
+	focus = {
+		id =  austria_monarchist_21
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_2
+		prerequisite = {
+			focus = austria_monarchist_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_a
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_21
+		prerequisite = {
+			focus = austria_monarchist_21
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_b
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_a
+		prerequisite = {
+			focus = austria_monarchist_a
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_c
+		icon = x
+		cost = x
+		x = -1.5
+		y = 1.5
+		relative_position_id = austria_monarchist_a
+		prerequisite = {
+			focus = austria_monarchist_a
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_22
+		icon = x
+		cost = x
+		x = 1.5
+		y = 1.5
+		relative_position_id = austria_monarchist_2
+		prerequisite = {
+			focus = austria_monarchist_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_23
+		icon = x
+		cost = x
+		x = 3
+		y = 1.5
+		relative_position_id = austria_monarchist_2
+		prerequisite = {
+			focus = austria_monarchist_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_mp
+		icon = x
+		cost = x
+		x = 0.75
+		y = 1.5
+		relative_position_id = austria_monarchist_22
+		prerequisite = {
+			focus = austria_monarchist_22
+		}
+		prerequisite = {
+			focus = austria_monarchist_23
+		}
+		completion_reward = { }
+	}
+
 
 	### COMMUNIST ####
 	focus = {

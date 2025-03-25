@@ -37,7 +37,7 @@ FEQ = {
 	color_ui = rgb { 74 147 255 }
 }
 TSR = {
-	color = rgb { 223 255 0 }
+	color = rgb { 250 250 51 }
 	color_ui = rgb { 74 147 255 }
 }
 

@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = PRC
+		owner = PRK
 		add_core_of = PRK
 
 	

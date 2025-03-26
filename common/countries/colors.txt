@@ -48,6 +48,10 @@ FRN = {
 	color = rgb { 108 117 225 }
 	color_ui = rgb { 74 147 255 }
 }
+FRG = {
+	color = rgb { 108 117 225 }
+	color_ui = rgb { 74 147 255 }
+}
 ##### DEFAULT ######
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

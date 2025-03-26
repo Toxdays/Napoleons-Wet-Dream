@@ -111,3 +111,21 @@
  PRK_DEF: "Prussian Congo"
  PRK_ADJ: "Prussian Congoese"
  PRK_neutrality: "Prussian Congo"
+########## French Namibia ############
+ FRN: "French Namibia" 
+ FRN_DEF: "French Namibia"
+ FRN_ADJ: "French Namibian"
+ FRN_neutrality: "French Namibia"
+ FRN_democratic: "French Namibia"
+###########French Guinea ##########
+ FRG: "French Guinea"
+ FRG_DEF: "French Guinea"
+ FRG_ADJ: "French Guinean"
+ FRG_neutrality: "French Guinea"
+ FRG_democratic: "French Guinea"
+########## French Sudan ###########
+ FRS: "French Sudan"
+ FRS_DEF: "French Sudan"
+ FRS_ADJ: "French Sudan"
+ FRS_neutrality: "French Sudan"
+ FRS_democratic: "French Sudan"

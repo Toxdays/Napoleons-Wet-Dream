@@ -129,3 +129,9 @@
  FRS_ADJ: "French Sudan"
  FRS_neutrality: "French Sudan"
  FRS_democratic: "French Sudan"
+######## French Tunisia ##############
+ FRT: "French Tunisia"
+ FRT_DEF: "French Tunisia"
+ FRT_ADJ: "French Tunisia"
+ FRT_neutrality: "French Tunisia"
+ FRT_democratic: "French Tunisia"

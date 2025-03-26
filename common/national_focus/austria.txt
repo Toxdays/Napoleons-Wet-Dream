@@ -1,0 +1,220 @@
+focus_tree = {
+	id = austria_focus_tree
+	country = { 
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+
+	focus = {
+		id = austria_start
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 15
+		y = 1
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = austria_2
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_start
+		prerequisite = {
+			focus = austria_start
+		}
+		completion_reward = {
+			add_political_power = 1
+		 }
+	}
+
+	##### MONARCHIST ####
+	focus = {
+		id = austria_monarchist
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_2
+		prerequisite = {
+			focus = austria_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_1
+		icon = x
+		cost = x
+		x = -1
+		y = 1.5
+		mutually_exclusive = {
+			focus = austria_monarchist_2
+		}
+		relative_position_id = austria_monarchist
+		prerequisite = {
+			focus = austria_monarchist
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_2
+		icon = x
+		cost = x
+		x = 1
+		y = 1.5
+		relative_position_id = austria_monarchist
+		prerequisite = {
+			focus = austria_monarchist
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id =  austria_monarchist_21
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_2
+		prerequisite = {
+			focus = austria_monarchist_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_a
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_21
+		prerequisite = {
+			focus = austria_monarchist_21
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_b
+		icon = x
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_a
+		prerequisite = {
+			focus = austria_monarchist_a
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_d
+		icon = GFX_Napoleon_VI
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_b
+		prerequisite = {
+			focus = austria_monarchist_b
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_c
+		icon = x
+		cost = x
+		x = -1.5
+		y = 1.5
+		relative_position_id = austria_monarchist_a
+		prerequisite = {
+			focus = austria_monarchist_a
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_22
+		icon = x
+		cost = x
+		x = 1.5
+		y = 1.5
+		relative_position_id = austria_monarchist_2
+		prerequisite = {
+			focus = austria_monarchist_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_23
+		icon = x
+		cost = x
+		x = 3
+		y = 1.5
+		relative_position_id = austria_monarchist_2
+		prerequisite = {
+			focus = austria_monarchist_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austria_monarchist_mp
+		icon = x
+		cost = x
+		x = 0.75
+		y = 1.5
+		relative_position_id = austria_monarchist_22
+		prerequisite = {
+			focus = austria_monarchist_22
+		}
+		prerequisite = {
+			focus = austria_monarchist_23
+		}
+		completion_reward = { }
+	}
+
+
+	### COMMUNIST ####
+	focus = {
+		id = austria_communist
+		icon = x
+		cost = x
+		x = -7
+		y = 1.5
+		mutually_exclusive = {
+			focus = austria_monarchist
+		}
+		relative_position_id = austria_2
+		prerequisite = {
+			focus = austria_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austro_communism
+		icon = GFX_Napoleon_VI
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_communist
+		prerequisite = {
+			focus = austria_communist
+		}
+		completion_reward = { }
+	}
+}

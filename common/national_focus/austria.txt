@@ -120,6 +120,19 @@ focus_tree = {
 	}
 
 	focus = {
+		id = austria_monarchist_d
+		icon = GFX_Napoleon_VI
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_monarchist_b
+		prerequisite = {
+			focus = austria_monarchist_b
+		}
+		completion_reward = { }
+	}
+
+	focus = {
 		id = austria_monarchist_c
 		icon = x
 		cost = x
@@ -180,7 +193,7 @@ focus_tree = {
 		id = austria_communist
 		icon = x
 		cost = x
-		x = 5
+		x = -7
 		y = 1.5
 		mutually_exclusive = {
 			focus = austria_monarchist
@@ -188,6 +201,19 @@ focus_tree = {
 		relative_position_id = austria_2
 		prerequisite = {
 			focus = austria_2
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = austro_communism
+		icon = GFX_Napoleon_VI
+		cost = x
+		x = x
+		y = 1.5
+		relative_position_id = austria_communist
+		prerequisite = {
+			focus = austria_communist
 		}
 		completion_reward = { }
 	}

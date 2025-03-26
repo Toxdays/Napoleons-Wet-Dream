@@ -3,7 +3,7 @@ characters = {
 		name = Napoleonreich_FRA_Napoleon_VI
 		portraits = {
 			civilian = {
-				large = GFX_Napoleonreich_portrait_FRA_Napoleon_VI
+				large = GFX_Napoleon_VI
 			}
 		}
 

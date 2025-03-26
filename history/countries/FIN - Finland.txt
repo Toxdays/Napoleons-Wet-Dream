@@ -27,10 +27,7 @@ declare_war_on = {
 }
 
 
-create_faction = United_liberation
 
-add_to_faction = FIN
-add_to_faction = UBD
 
 
 

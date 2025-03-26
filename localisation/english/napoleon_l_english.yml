@@ -106,3 +106,8 @@
  FEQ_democratic_ADJ: "French Equatorial"
  FEQ_neutrality_ADJ: "French Equatorial"
  FEQ_communism_ADJ: "Watermelon muncher"
+#####################Prussian Congo ############
+ PRK: "Prussian Congo"
+ PRK_DEF: "Prussian Congo"
+ PRK_ADJ: "Prussian Congoese"
+ PRK_neutrality: "Prussian Congo"

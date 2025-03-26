@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = PRK
+		owner = FEQ
 		add_core_of = RCG
 
 		victory_points = {

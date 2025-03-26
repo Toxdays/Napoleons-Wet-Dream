@@ -3,22 +3,17 @@ division_template = {
 	regiments = {
 		infantry  = { x = 0 y = 0}
 		infantry  = { x = 0 y = 1}
-		infantry  = { x = 0 y = 2}
 		infantry  = { x = 1 y = 0}
+		infantry  = { x = 1 y = 1}
 	 }
-	support = {
-		artillery = { x = 0 y = 1}
-		
-	}
-
 }
 division_template = {
 	name = "Cavarly Division"
 	regiments = {
 		cavalry = {x = 0 y = 0}
 		cavalry = {x = 0 y = 1}
-		cavalry = {x = 0 y = 2}
 		cavalry = {x = 1 y = 0}
+		cavalry = {x = 1 y = 1}
 	 }
 }
 
@@ -49,187 +44,259 @@ units = {
 		name = "1st Royal Divison"
 		location = 3151
 		division_template = "Royal Guard"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "2nd Royal Divison"
 		location = 2998
 		division_template = "Royal Guard"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "3rd Royal Divison"
 		location = 9120
 		division_template = "Royal Guard"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "1st Conscript Division"
 		location = 126
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Conscript Division"
+		location = 126
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "2nd Conscript Division"
 		location = 9408
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Conscript Division"
+		location = 9408
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "3rd Conscript Division"
 		location = 11202
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "4th Conscript Division"
 		location = 415
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Conscript Division"
+		location = 415
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "5th Conscript Division"
 		location = 3310
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "6th Conscript Division"
 		location = 3333
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Conscript Division"
+		location = 3333
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "7th Conscript Division"
 		location = 11259
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "8th Conscript Division"
 		location = 3219
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "9th Conscript Division"
 		location = 233
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
-		name = "1st Conscript Division"
-		location = 11391
+		name = "9th Conscript Division"
+		location = 233
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "10th Conscript Division"
 		location = 6340
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10th Conscript Division"
+		location = 6340
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "11th Conscript Division"
 		location = 6413
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "12th Conscript Division"
 		location = 3366
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "13th Conscript Division"
 		location = 3393
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "13th Conscript Division"
+		location = 3393
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "14th Conscript Division"
 		location = 13206
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "14th Conscript Division"
+		location = 13206
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "15th Conscript Division"
 		location = 149
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "16th Conscript Division"
 		location = 6070
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "17th Conscript Division"
 		location = 9078
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "17th Conscript Division"
+		location = 9078
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "18th Conscript Division"
 		location = 40
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "19th Conscript Division"
 		location = 9231
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "19th Conscript Division"
+		location = 9231
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "20th Conscript Division"
 		location = 80
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "21th Conscript Division"
 		location = 6098
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "21th Conscript Division"
+		location = 6098
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "22th Conscript Division"
 		location = 6175
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "23rd Conscript Division"
 		location = 907
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "24th Conscript Division"
 		location = 9198
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "24th Conscript Division"
+		location = 9198
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "25th Conscript Division"
 		location = 11181
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "26th Conscript Division"
 		location = 9123
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "26th Conscript Division"
+		location = 9123
+		division_template = "Conscript Division"
+		start_experience_factor = 0.2
 	}
 	division = {
 		name = "27th Conscript Division"
 		location = 15
 		division_template = "Conscript Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 	}
 	
 }

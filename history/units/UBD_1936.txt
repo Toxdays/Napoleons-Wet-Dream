@@ -1,0 +1,103 @@
+division_template = {
+	name = "Revolutionary Guard"
+	regiments = {
+		infantry  = { x = 0 y = 0}
+		infantry  = { x = 0 y = 1}
+		infantry  = { x = 0 y = 2}
+		infantry  = { x = 1 y = 0}
+		infantry  = { x = 1 y = 1}
+		infantry  = { x = 1 y = 2}
+	 }
+	support = {
+		artillery = { x = 0 y = 0}
+		
+	}
+}
+division_template = {
+	name = "Scouting Division"
+	regiments = { 
+		cavalry  = { x = 0 y = 0}
+		cavalry  = { x = 0 y = 1}
+		cavalry  = { x = 1 y = 0}
+		cavalry  = { x = 1 y = 1}
+	}
+}
+
+units = {
+	division = {
+		name = "1st Revolutionary Guard Division"
+		location = 6281
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "2nd Revolutionary Guard Division"
+		location = 9274
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "3rd Revolutionary Guard Division"
+		location = 3320
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "4th Revolutionary Guard Division"
+		location = 592
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "5th Revolutionary Guard Division"
+		location = 319
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "6th Revolutionary Guard Division"
+		location = 9221
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "7th Revolutionary Guard Division"
+		location = 222
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "8th Revolutionary Guard Division"
+		location = 4640
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "9th Revolutionary Guard Division"
+		location = 6459
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "10th Revolutionary Guard Division"
+		location = 310
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "11th Revolutionary Guard Division"
+		location = 11342
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "12th Revolutionary Guard Division"
+		location = 11358
+		division_template = "Revolutionary Guard"
+	}
+	division = {
+		name = "1st Scouting Division"
+		location = 9295
+		division_template = "Scouting Division"
+	}
+	division = {
+		name = "2nd Scouting Division"
+		location = 3298
+		division_template = "Scouting Division"
+	}
+	division = {
+		name = "3rd Scouting Division"
+		location = 9275
+		division_template = "Scouting Division"
+	}
+
+}

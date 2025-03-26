@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = PRC
+		owner = FEQ
 		add_core_of = EQG
 		victory_points = {
 			1903 1 

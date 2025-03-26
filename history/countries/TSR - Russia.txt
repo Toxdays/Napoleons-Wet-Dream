@@ -11,6 +11,7 @@ set_technology = {
 add_manpower = 500000
 
 add_ideas = {
+	military_humiliation
 	
 }
 

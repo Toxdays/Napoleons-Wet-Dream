@@ -1,0 +1,118 @@
+shared_focus = {
+	id = prussia_industry
+	cost = 1
+	x = 28
+	y = 1.25
+	completion_reward = {
+		random_owned_state = {
+			limit = {
+				is_core_of = root
+			}
+
+			prioritize = {
+				4
+			}
+
+			add_extra_state_shared_building_slots = 4
+
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+
+		}
+	}
+	
+}
+shared_focus = {
+	id = prussia_industry_artillery
+	cost = 1
+	x = -1.25
+	y = 1.25
+
+	relative_position_id = prussia_industry
+	prerequisite = {
+		focus = prussia_industry
+	}
+	completion_reward = {
+		add_resource = {
+			type = tungsten
+			amount = 5
+			state = 64
+		}
+		add_resource = {
+			type = steel
+			amount = 10
+			state = 67
+		}
+	}
+	available = {
+		has_completed_focus = prussian_artillery
+	}
+}
+shared_focus = {
+	id = prussia_industry_tank
+	cost = 1
+	x = 1.25
+	y = 1.25
+	relative_position_id = prussia_industry
+	prerequisite = {
+		focus = prussia_industry
+	}
+	available = {
+		has_completed_focus = prussian_tank
+	}
+	
+	mutually_exclusive = {
+		focus = prussia_industry_artillery
+	}
+	
+}
+
+### MILITARY FOCUSES
+shared_focus = {
+	id = prussian_military
+	icon = GFX_surrender_tiny_flag
+	cost = 1
+	x = 4
+	y = 1.25
+	completion_reward = { }
+}
+
+shared_focus = {
+
+	id = prussian_tank
+	icon = GFX_surrender_tiny_flag
+	cost = 1
+	x = 2
+	y = 1.25
+	completion_reward = { }
+	relative_position_id = prussian_military
+	prerequisite = {
+		focus = prussian_military
+	}
+	mutually_exclusive = {
+		focus = prussian_artillery
+	}
+}
+
+shared_focus = {
+	
+
+	id = prussian_artillery
+	icon = GFX_surrender_tiny_flag
+	cost = 1
+	x = -2
+	y = 1.25
+	completion_reward = { }
+	prerequisite = {
+		focus = prussian_military
+	}
+	relative_position_id = prussian_military
+}

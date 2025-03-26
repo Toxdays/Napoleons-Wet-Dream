@@ -1,0 +1,15 @@
+characters = {
+	FRA_Napoleon_VI = {
+		name = Napoleonreich_FRA_Napoleon_VI
+		portraits = {
+			civilian = {
+				large = GFX_Napoleon_VI
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			traits = {}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+ideas = {
+
+	####### START IDEAS #####
+	country = {
+		military_humiliation = {
+			picture = idea_generic_army_problems
+
+			modifier = {
+				war_support_factor = -0.25
+				army_org_factor = -0.05
+			}
+		}
+	}
+}

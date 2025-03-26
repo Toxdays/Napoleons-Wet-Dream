@@ -1,0 +1,27 @@
+ideas = {
+
+	####### START IDEAS #####
+	country = {
+		shakey_compromise = {
+			picture = idea_BALTIC_forest_brothers
+
+			modifier = {
+				stability_factor = -0.1
+				weekly_manpower = 100
+			}
+		}
+	}
+	country = {
+		stand_our_ground = {
+			picture = idea_RAJ_independence_movement
+
+			modifier = {
+				army_defence_factor = 0.05
+
+
+			}
+		}
+	}
+}
+
+

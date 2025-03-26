@@ -26,6 +26,8 @@ set_technology = {
 	
 }
 
+add_manpower = 300000
+
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.75
@@ -50,5 +52,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	stand_our_ground
+	shakey_compromise
 }
 

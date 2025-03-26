@@ -111,3 +111,8 @@
  PRK_DEF: "Prussian Congo"
  PRK_ADJ: "Prussian Congoese"
  PRK_neutrality: "Prussian Congo"
+########## French Namibia ############
+ FRN: "French Namibia" 
+ FRN_DEF: "French Namibia"
+ FRN_ADJ: "French Namibian"
+ FRN_neutrality: "French Namibia"

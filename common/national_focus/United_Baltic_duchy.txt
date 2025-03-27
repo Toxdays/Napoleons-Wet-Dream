@@ -28,7 +28,7 @@ focus_tree = {
 		cost = x
 		x = x
 		y = 1.25
-		completion_reward = {  }
+		completion_reward = { }
 		relative_position_id = UBD_start
 		prerequisite = {
 			focus = UBD_start
@@ -36,6 +36,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = independant_route
 			focus = france_route
+		}
+		available = {
+			 has_completed_focus = anti_france
 		}
 	}
 	focus = {

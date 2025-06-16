@@ -12,4 +12,12 @@ characters = {
 			traits = {}
 		}
 	}
+	DEN_Christian_X = {
+		name = Napoleonreich_DEN_Christian_X
+		portraits = {
+			civilian = {
+				large = GFX_Christian_X
+			}
+		}
+	}
 }

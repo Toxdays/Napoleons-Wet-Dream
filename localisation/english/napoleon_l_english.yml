@@ -135,3 +135,13 @@
  FRT_ADJ: "French Tunisia"
  FRT_neutrality: "French Tunisia"
  FRT_democratic: "French Tunisia"
+########### DENMARK-NORWAY #############
+ DEN: "Denmark-Norway"
+ DEN_DEF: "Danish-norwegian"
+ DEN_ADJ: "Denmark-Norway"
+ DEN_neutrality: "Denmark-Norway"
+ DEN_neutrality_def: "Denmark-Norway"
+ DEN_neutrality_adj: "Danish-monarchy"
+ DEN_democratic: "North-western Democratic Union"
+ DEN_communist: "The Red North"
+ DEN_fascist: "Danemark"

@@ -47,9 +47,13 @@ focus_tree = {
 		y = 1.25
 		relative_position_id = anti_france
 		prerequisite = { focus = anti_france }
-		completion_reward = { set_rule = {
+		completion_reward = { 
+			set_rule = {
 			can_send_volunteers = yes
-		} }
+		} 
+		country_event = { id = ubd_event.1 }
+		}
+		
 	}
 
 

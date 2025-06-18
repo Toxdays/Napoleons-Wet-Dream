@@ -10,7 +10,8 @@ set_technology = {
 
 add_manpower = 15000
 
-add_ideas = {
+add_ideas = { 
+	Cossack_Host
 	
 }
 

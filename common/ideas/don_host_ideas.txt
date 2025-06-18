@@ -1,0 +1,14 @@
+ideas = {
+
+	####### START IDEAS #####
+	country = {
+		Cossack_Host = {
+			picture = idea_generic_army_problems
+
+			modifier = {
+				cavalry_attack_factor = +0.50
+				
+			}
+		}
+	}
+}

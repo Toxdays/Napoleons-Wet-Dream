@@ -145,3 +145,15 @@
  DEN_democratic: "North-western Democratic Union"
  DEN_communist: "The Red North"
  DEN_fascist: "Danemark"
+ ################## IBERIAN UNION ##############
+ IBE: "Iberia"
+ IBE_DEF: "Iberia"
+ IBE_ADJ: "Iberian"
+ IBE_neutrality: "Iberian Union"
+ IBE_neutrality_def: "Iberia"
+ IBE_neutrality_adj: "Iberian"
+ IBE_democratic: "Iberian Republic"
+ IBE_communist: "Red Iberia" #### red iberia in spanish or smth
+ IBE_fascist: "Iberian Empire"
+############# RUSSIAN EMPIRE #############
+ RUS

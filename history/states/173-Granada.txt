@@ -6,8 +6,7 @@ state={
 	}
 
 	history={
-		owner = SPR
-		victory_points = {
+		owner = IBE		victory_points = {
 			9979 5
 		}
 		victory_points = {
@@ -30,8 +29,7 @@ state={
 			}
 
 		}
-		add_core_of = SPR
-
+		add_core_of = IBE
 	}
 
 	provinces={

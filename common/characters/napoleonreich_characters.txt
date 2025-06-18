@@ -19,5 +19,11 @@ characters = {
 				large = GFX_Christian_X
 			}
 		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				
+			}
+		}
 	}
 }

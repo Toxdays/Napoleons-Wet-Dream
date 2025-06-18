@@ -11,9 +11,7 @@ state = {
 
 	history = {
 
-		owner = POR
-		add_core_of = POR
-
+		owner = IBE		add_core_of = IBE
 		victory_points = {
 			9787 1 # Viseu
 		}

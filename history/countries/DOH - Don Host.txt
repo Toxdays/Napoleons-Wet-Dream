@@ -24,10 +24,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 70
-	communism = 10
-	neutrality = 5
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
 }
 
 declare_war_on = {

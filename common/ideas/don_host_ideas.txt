@@ -6,7 +6,7 @@ ideas = {
 			picture = idea_generic_army_problems
 
 			modifier = {
-				cavalry_attack_factor = +0.50
+				Cavalry_attack_factor = +0.50
 				
 			}
 		}

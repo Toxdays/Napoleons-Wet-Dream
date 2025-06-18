@@ -10,8 +10,7 @@ state = {
 
 	history = {
 
-		owner = POR
-
+		owner = IBE
 		
 
 		buildings = {

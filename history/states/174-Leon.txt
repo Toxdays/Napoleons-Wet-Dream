@@ -6,8 +6,7 @@ state={
 		tungsten=10.000
 	}
 	history={
-		owner = SPR
-		victory_points = {
+		owner = IBE		victory_points = {
 			726 1
 		}
 		buildings = {
@@ -15,8 +14,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = SPR
-
+		add_core_of = IBE
 	}
 
 	provinces={

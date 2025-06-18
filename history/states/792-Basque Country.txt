@@ -6,8 +6,7 @@ state={
 	}
 
 	history={
-		owner = SPR
-		victory_points = {
+		owner = IBE		victory_points = {
 			740 10
 		}
 		add_core_of = NAV
@@ -20,8 +19,7 @@ state={
 			}
 			air_base = 1
 		}
-		add_core_of = SPR
-
+		add_core_of = IBE
 	}
 
 	provinces={

@@ -1,0 +1,49 @@
+division_template = {
+	name = "Cossack Cavalry Division"
+	regiments = { 
+		cavalry  = { x = 0 y = 0}
+		cavalry  = { x = 0 y = 1}
+		cavalry  = { x = 1 y = 0}
+		cavalry  = { x = 1 y = 1}
+		cavalry  = { x = 1 y = 0}
+		cavalry  = { x = 1 y = 1}
+		cavalry  = { x = 1 y = 0}
+		cavalry  = { x = 1 y = 1}
+	}
+}
+division_template = {
+	name = "Cossack Infantry Division"
+	regiments = {
+		infantry  = { x = 0 y = 0}
+		infantry  = { x = 0 y = 1}
+		infantry  = { x = 0 y = 2}
+		infantry  = { x = 1 y = 0}
+		infantry  = { x = 1 y = 1}
+		infantry  = { x = 1 y = 2}
+	 }
+	support = {
+		artillery = { x = 0 y = 0}
+		
+	}
+}
+units = {
+	division = {
+		name = "1st Cossack Regiment"
+		location = 9417
+		division_template = "Cossack Cavalry Division"
+	}
+	division = {
+		name = "3rd Cossack Regiment"
+		location = 533
+		division_template = "Cossack Cavalry Division"
+	}
+	division = {
+		name = "4th Cossack Regiment"
+		location = 11467
+		division_template = "Cossack Cavalry Division"
+	}
+	division = {
+		name = "2nd Cossack Regiment"
+		location = 9417
+		division_template = "Cossack Infantry Division"
+	}

@@ -167,4 +167,7 @@ DOH_democratic_DEF: "the Don Republic"
 DOH_democratic_ADJ: "Don"
 DOH_DEF: "Don"
 DOH_ADJ: "Don"
+DOH_neutrality: "Don Host"
+DOH_neutrality_def: "Don"
+DOH_neutrality_adj: "Don"
 

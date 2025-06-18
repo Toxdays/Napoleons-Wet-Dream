@@ -158,7 +158,7 @@
 ############# RUSSIAN EMPIRE #############
  RUS
 ########## DON HOST###########
- DOH: "Don"
+DOH: "Don Host"
 DOH_facism: "Don Host"
 DOH_fascism_DEF: "the Don Host"
 DOH_fascism_ADJ: "Don"

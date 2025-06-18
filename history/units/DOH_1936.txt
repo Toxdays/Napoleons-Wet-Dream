@@ -39,7 +39,7 @@ units = {
 	}
 	division = {
 		name = "4th Cossack Regiment"
-		location = 11467
+		location = 533
 		division_template = "Cossack Cavalry Division"
 	}
 	division = {

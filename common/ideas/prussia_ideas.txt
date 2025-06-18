@@ -1,0 +1,10 @@
+ideas = {
+
+        #### BALTIC CAN SEND VOLUNTEERS #####
+	country = {
+		jäger_volunteers = {
+			picture = idea_generic_army_problems
+
+		}
+	}
+}

@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = gfx/leaders/FRA/portrait_fra_napoleon.dds
 	}
 
+	spriteType = {
+		name = GFX_Christian_X
+		textureFile = gfx/leaders/DEN/portrait_den_christian.dds
+	}
+
 }

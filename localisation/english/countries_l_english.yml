@@ -5306,6 +5306,18 @@
  BLC: "Balochistan"
  BLC_DEF: "Balochistan"
  BLC_ADJ: "Baloch"
-
-
-
+ DOH_facism: "Don Host"
+ DOH_fascism_DEF: "the Don Host"
+ DOH_fascism_ADJ: "Don"
+ DON_democratic: "Don Republic"
+ DON_democratic_DEF: "the Don Republic"
+ DON_democratic_ADJ: "Don"
+ DON_neutrality: "Balochistan"
+ DON_neutrality_DEF: "Balochistan"
+ DON_neutrality_ADJ: "Baloch"
+ DON_communism: "Baloch People's Republic"
+ DON_communism_DEF: "the Baloch People's Republic"
+ DON_communism_ADJ: "Baloch"
+ DON: "DON"
+ DON_DEF: "Balochistan"
+ DON_ADJ: "Baloch"

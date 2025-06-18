@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = TSR		buildings = {
+		owner = DOH		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = TSR		victory_points = {

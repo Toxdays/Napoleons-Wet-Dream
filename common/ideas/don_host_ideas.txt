@@ -3,10 +3,10 @@ ideas = {
 	####### START IDEAS #####
 	country = {
 		Cossack_Host = {
-			picture = idea_generic_army_problems
+			picture = idea_BALTIC_forest_brothers
 
 			modifier = {
-				Cavalry_attack_factor = +0.50
+				Cavalry_attack_factor = +0.20
 				
 			}
 		}
